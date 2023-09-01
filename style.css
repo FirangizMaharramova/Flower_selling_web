@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+
+}
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar1 {
+  width: 30%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar1 span {
+  color: rgb(212, 32, 131);
+}
+.navbar2 {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar2 a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+.navbar2 a:hover {
+  color: palevioletred;
+  box-shadow: pink;
+}
+.navbar3 {
+  width: 30%;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.head {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(255, 219, 225);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.head1 {
+  width: 50%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.head1 h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.head1 h3 {
+  font-size: 2.5rem;
+  color: rgb(212, 32, 131);
+}
+.head p {
+  font-size: 1.5rem;
+  color: #726e6e;
+}
+.button {
+  width: 180px;
+  height: 40px;
+  font-size: 1.3rem;
+  background-color: #1a0000;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  border: transparent;
+}
+.button:hover{
+  background-color: palevioletred;
+  box-shadow: pink;
+}
+.head2 img {
+  width: 300px;
+}
+.about-us {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.about-us div h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+.about-us div h1 span {
+  color: rgb(212, 32, 131);
+}
+.about-us2 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* .div1{
+    width: 60%;
+    height: 100%;
+    background-color: green; */
+
+.about-us2 img {
+  width: 500px;
+}
+.whychoose {
+  width: 40%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.whychoose p {
+  font-size: 1.2rem;
+  color: #726e6e;
+}
+/* .div2{
+    width: 40%;
+    height: 100%;
+    background-color: yellow;
+} */
+.fourpart {
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(225, 221, 221);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.icons-box {
+  width: 250px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-around;
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  height: 70%;
+}
+.text-box p {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.latest_product {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+.lts-h1 {
+  width: 77%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(252, 240, 242);
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+.latest_product h1 span {
+  color: rgb(212, 32, 131);
+}
+.latest_product_boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.lts-box {
+  width: 370px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 5px rgb(188, 186, 186);
+  cursor: pointer;
+  background-color: white;
+}
+.lts-box:hover {
+  box-shadow: 0 0 5px rgb(92, 90, 90);
+  transition: 0.3s linear;
+}
+.flovimg {
+  width: 300px;
+}
+
+.value {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(212, 32, 131);
+}
+.flov-p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(86, 84, 84);
+}
+.custumers-review {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.cst-boxes {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.custumers-box {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  padding: 0 0 0 20px;
+  box-shadow: 0 0 5px rgb(188, 186, 186);
+  cursor: pointer;
+}
+.custumers-box:hover {
+  box-shadow: 0 0 5px rgb(92, 90, 90);
+  transition: 0.3s linear;
+}
+.custumers-box p {
+  font-size: 1.2rem;
+  color: #6a6a6a;
+}
+.custumer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+.cust-img {
+  border-radius: 50%;
+  width: 90px;
+}
+.stars {
+  color: rgb(212, 32, 131);
+}
+.contact-us {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact-boxes {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact-left {
+  width: 450px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  box-shadow: 0 2px 2px 2px rgb(214, 211, 211);
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.contact-img {
+  width: 420px;
+}
+.contact-left input {
+  width: 420px;
+  height: 40px;
+  border: 2px solid rgb(210, 209, 209);
+  border-radius: 3px;
+  padding: 0 0 0 5px;
+}
+.contact-left textarea {
+  width: 420px;
+  max-height: 200px;
+  max-width: 420px;
+  border: 2px solid rgb(210, 209, 209);
+  border-radius: 3px;
+  padding: 5px 0 0 5px;
+}
+.footer{
+  width: 100%;
+  height: 50vh;
+background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer-top{
+  width: 100%;
+  height: 42vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-top a{
+text-decoration: none;
+font-size: 1.1rem;
+color:  rgb(115, 114, 114);
+}
+.footer-top a:hover{
+  color: royalblue;
+  text-decoration: underline;
+}
+.footer-part{
+  width: 250px;
+  height: 100%;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-bottom{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid rgb(208, 203, 203);
+}
+.footer-bottom p{
+  font-size: 1.5rem;
+}
+.footer-bottom span{
+  color: royalblue;
+}
